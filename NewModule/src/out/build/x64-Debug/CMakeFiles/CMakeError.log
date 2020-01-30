@@ -1,0 +1,111 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/VisualStudioProjects/GET_ProjectOne/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f32b4 && [1/2] Building C object CMakeFiles\cmTC_f32b4.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_f32b4.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\HostX64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_f32b4.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_f32b4.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the AFTR_CONFIG_USE_FONTS exist failed with the following output:
+Change Dir: D:/VisualStudioProjects/GET_ProjectOne/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3362f && [1/2] Building C object CMakeFiles\cmTC_3362f.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_3362f.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\HostX64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_3362f.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_3362f.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_FONTS': undeclared identifier
+ninja: build stopped: subcommand failed.
+
+
+File D:/VisualStudioProjects/GET_ProjectOne/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <D:/VisualStudioProjects/GET_ProjectOne/include/aftr/AftrConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AFTR_CONFIG_USE_FONTS
+  return ((int*)(&AFTR_CONFIG_USE_FONTS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the AFTR_CONFIG_USE_OCULUS_RIFT_OVR exist failed with the following output:
+Change Dir: D:/VisualStudioProjects/GET_ProjectOne/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9f47f && [1/2] Building C object CMakeFiles\cmTC_9f47f.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_9f47f.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\HostX64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_9f47f.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_9f47f.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_OCULUS_RIFT_OVR': undeclared identifier
+ninja: build stopped: subcommand failed.
+
+
+File D:/VisualStudioProjects/GET_ProjectOne/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <D:/VisualStudioProjects/GET_ProjectOne/include/aftr/AftrConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AFTR_CONFIG_USE_OCULUS_RIFT_OVR
+  return ((int*)(&AFTR_CONFIG_USE_OCULUS_RIFT_OVR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the AFTR_CONFIG_USE_OCULUS_RIFT_DK2 exist failed with the following output:
+Change Dir: D:/VisualStudioProjects/GET_ProjectOne/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b75ad && [1/2] Building C object CMakeFiles\cmTC_b75ad.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_b75ad.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\HostX64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_b75ad.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_b75ad.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_OCULUS_RIFT_DK2': undeclared identifier
+ninja: build stopped: subcommand failed.
+
+
+File D:/VisualStudioProjects/GET_ProjectOne/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <D:/VisualStudioProjects/GET_ProjectOne/include/aftr/AftrConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AFTR_CONFIG_USE_OCULUS_RIFT_DK2
+  return ((int*)(&AFTR_CONFIG_USE_OCULUS_RIFT_DK2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the AFTR_CONFIG_USE_KEYLOK_DONGLE exist failed with the following output:
+Change Dir: D:/VisualStudioProjects/GET_ProjectOne/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2f6b6 && [1/2] Building C object CMakeFiles\cmTC_2f6b6.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_2f6b6.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\HostX64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_2f6b6.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_2f6b6.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(8): error C2065: 'AFTR_CONFIG_USE_KEYLOK_DONGLE': undeclared identifier
+ninja: build stopped: subcommand failed.
+
+
+File D:/VisualStudioProjects/GET_ProjectOne/modules/NewModule/src/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <D:/VisualStudioProjects/GET_ProjectOne/include/aftr/AftrConfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AFTR_CONFIG_USE_KEYLOK_DONGLE
+  return ((int*)(&AFTR_CONFIG_USE_KEYLOK_DONGLE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
